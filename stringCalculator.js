@@ -13,7 +13,7 @@ const stringCalculator = (stringInput = 0) => {
     }
   }
   // console.log(calculator)
-  return calculator;
+  return calculator.toString();
 }
 
 module.exports = {stringCalculator};
