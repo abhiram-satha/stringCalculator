@@ -20,7 +20,8 @@ const stringCalculator = (stringInput = 0) => {
       calculator += Number(splitStringInput[i]);
     }
     
-    else if (splitStringInput[i].length > 1) {
+     if (splitStringInput[i].length > 3) {
+      calculator = 0;
       for (let j = 0; j < splitStringInput[i].length; j++) {
         if (integers.includes(splitStringInput[i][j])) {
           console.log("num", Number(splitStringInput[i][j]));
