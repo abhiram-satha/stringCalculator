@@ -23,7 +23,6 @@ const stringCalculator = (stringInput = 0) => {
       calculator = 0;
       for (let j = 0; j < splitStringInput[i].length; j++) {
         if (integers.includes(splitStringInput[i][j])) {
-          console.log("num", Number(splitStringInput[i][j]));
           calculator += Number(splitStringInput[i][j]);
 
         }
